@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import { authUser } from './auth.controller'
+import { authUser } from './auth.controller.js'
 
 const router = Router()
 
-router.route('/api/auth/login').post(authUser)
+router.route('/login').post(authUser)
 
 export default router

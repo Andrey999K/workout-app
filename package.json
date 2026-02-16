@@ -18,6 +18,7 @@
 	"devDependencies": {
 		"@ianvs/prettier-plugin-sort-imports": "^4.7.1",
 		"@types/express": "^5.0.6",
+		"@types/jsonwebtoken": "^9.0.10",
 		"@types/node": "^25.2.3",
 		"@types/pg": "^8.16.0",
 		"colors": "^1.4.0",
@@ -28,11 +29,15 @@
 	},
 	"dependencies": {
 		"-": "^0.0.1",
+		"@faker-js/faker": "^10.3.0",
 		"@prisma/adapter-pg": "^7.4.0",
 		"@prisma/client": "^7.4.0",
 		"@types/morgan": "^1.9.10",
+		"argon2": "^0.44.0",
 		"dotenv": "^17.3.1",
 		"express": "^5.2.1",
+		"express-async-handler": "^1.2.0",
+		"jsonwebtoken": "^9.0.3",
 		"morgan": "^1.10.1",
 		"nodemon": "^3.1.11",
 		"pg": "^8.18.0"

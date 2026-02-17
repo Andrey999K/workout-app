@@ -6,4 +6,4 @@ const router = Router()
 router.route('/login').post(authUser)
 router.route('/signup').post(signupUser)
 
-export default router
+export const authRoutes = router

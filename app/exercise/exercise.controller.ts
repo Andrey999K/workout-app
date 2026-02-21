@@ -12,8 +12,7 @@ export const createExercise = async (req: AuthRequest, res: Response) => {
 		data: {
 			name,
 			times,
-			iconPath,
-			userId: req.user!.id
+			iconPath
 		}
 	})
 

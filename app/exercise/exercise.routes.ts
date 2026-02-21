@@ -9,9 +9,10 @@ import {
 
 const router = Router()
 
-router.route('/').post(protect, createExercise)
-router.route('/').get(protect, getExercise)
-router.route('/:id').put(protect, updateExercise)
-router.route('/:id').delete(protect, deleteExercise)
+router.route('/').post(protect, createExercise).get(protect, getExercise)
+router
+	.route('/:id')
+	.put(protect, updateExercise)
+	.delete(protect, deleteExercise)
 
 export const exerciseRoutes = router
